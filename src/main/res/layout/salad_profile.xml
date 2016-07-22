@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/diffsalad"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SALAD"
+        android:textSize="40dp"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <RatingBar
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp"
+        android:text="Ingredients Needed"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25dp"
+        android:text="Nutritional Information"
+        android:id="@+id/textView4" />
+
+
+</LinearLayout>

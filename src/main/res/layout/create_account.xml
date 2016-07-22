@@ -47,4 +47,5 @@
         android:layout_gravity="center_horizontal"
         android:visibility="invisible"
         android:text="Passwords do not match" />
+
 </LinearLayout>
