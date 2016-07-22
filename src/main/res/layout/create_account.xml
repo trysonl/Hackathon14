@@ -39,4 +39,12 @@
         android:text="Create Account"
         android:id="@+id/createAccountButton"
         android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/warnPopUp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:text="Passwords do not match" />
 </LinearLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="emotion_prompt">Choose your emotion</string>
+
+    <string-array name="emotions">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Mad</item>
+    </string-array>
 </resources>
